@@ -103,8 +103,8 @@ Smart AquaVision uses deep learning to:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/logixon-smart-aquavision.git
-cd logixon-smart-aquavision
+git clone https://github.com/sumant2000/aquavision-dashboard.git
+cd aquavision-dashboard
 
 # Start the entire application
 docker-compose up -d
