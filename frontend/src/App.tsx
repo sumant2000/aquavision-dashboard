@@ -15,7 +15,7 @@ interface AnalysisResult {
 function App() {
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [currentAnalysis, setCurrentAnalysis] = useState<AnalysisResult | null>(null);
-  const [historicalData, setHistoricalData] = useState<any[]>([]);
+  const [historicalData] = useState<any[]>([]);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Simulate API call for video analysis
