@@ -1,0 +1,61 @@
+# Logixon Smart AquaVision
+
+# Dependencies
+node_modules/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Docker
+.dockerignore
+
+# Data files
+data/raw/
+data/processed/
+models/trained/
+uploads/
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+.jest/
+
+# Temporary files
+tmp/
+temp/
